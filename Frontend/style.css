@@ -1,0 +1,80 @@
+    /* Reset a bit for cleaner look */
+    body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Page title */
+    .page-title {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+    }
+
+    /* Card-like form container */
+    .form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Labels */
+    form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+    }
+
+    /* Inputs */
+    form input[type="text"],
+    form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    }
+
+    /* Button */
+    form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    }
+
+    form button:hover {
+    background-color: #45a049;
+    }
+
+    #testLuckBtn {
+    display: block;
+    margin: 20px auto;          /* centers it */
+    padding: 15px 40px;         /* larger button */
+    font-size: 18px;            /* bigger text */
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #66b3ff, #004080); /* light blue → dark blue */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* shading effect */
+    transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    #testLuckBtn:hover {
+    transform: scale(1.05);  /* slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
